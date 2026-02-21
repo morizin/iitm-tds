@@ -1,16 +1,16 @@
+name: Cache Test
+
 on:
   push:
     branches: [ main ]
-    
+
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
-      - name: Hello World
-        run: echo "Hello, world!"
 
       - name: prime-cache-30145bd
         id: cache-step
@@ -19,5 +19,5 @@ jobs:
           path: ~/.npm
           key: cache-30145bd
 
-      - name: Cache hit/miss result
-        run: echo "Cache result: ${{ steps.cache-step.outputs.cache-hit == 'true' && 'hit' || 'miss' }}"
+      - name: Show cache result
+        run: echo "Cache result: ${{ steps.cache-step.outputs.cache-hit }}"
