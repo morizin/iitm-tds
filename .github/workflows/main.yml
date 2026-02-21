@@ -6,6 +6,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
       - name: 24f1002455@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-      
+
+      - name: prime-cache-30145bd
+        id: cache-step
+        uses: actions/cache@v4
+        with:
+          path: .
+          key: cache-30145bd
