@@ -1,0 +1,12 @@
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-20.04
+    steps:
+      - name: "24f1002455@ds.study.iitm.ac.in"
+        run: echo "Hello, world!"
+      
