@@ -20,4 +20,4 @@ jobs:
           key: cache-30145bd
 
       - name: Cache hit/miss result
-        run: echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
+        run: echo "Cache result: ${{ steps.cache-step.outputs.cache-hit == 'true' && 'hit' || 'miss' }}"
