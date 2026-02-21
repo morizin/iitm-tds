@@ -17,3 +17,6 @@ jobs:
         with:
           path: .
           key: cache-30145bd
+
+      - name: Cache hit/miss result
+        run: echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
