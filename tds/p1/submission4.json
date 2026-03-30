@@ -1,0 +1,9 @@
+{
+  "prompt": "A lone human figure suspended in dark, still water, viewed from the side, vertical composition. Three visible depths forming a continuous descent.\n\nAt the surface the figure is clear, luminous, calm, intact, bathed in soft natural light, holding a phone whose screen emits a faint blue-white shimmer.\n\nIn the middle depth the figure begins to fragment and dissolve at the edges, particles trailing behind, while the phone glow grows noticeably brighter and larger.\n\nAt the lowest depth the figure is barely an outline dissolving into dark particles, almost indistinguishable from the surrounding blackness, while the phone screen blazes with an overwhelming cold blue-white light — the only thing remaining fully defined.\n\nThe descent reads as a single continuous fall, not separate figures.\n\nNo text, no labels, no numbers, no symbols, no diagrams, no charts.\n\nPhotorealistic, cinematic lighting, deep blacks, high contrast, cold palette, editorial photography meets fine art, shallow depth atmosphere, volumetric light rays from above, haunting, uncanny stillness.\n\nNegative prompt:\n\nNo typography, no equations, no infographic elements, no UI overlays, no glowing neon effects beyond the phone, no surreal floating objects, no multiple separate characters.",
+
+  "model": "DALL·E 3",
+
+  "paradox": "Goodhart's Law",
+
+  "visual_logic": "A figure dissolves while the phone's glow intensifies, showing how optimizing the visible signal destroys the underlying system it was meant to represent."
+}
