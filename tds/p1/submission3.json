@@ -4,5 +4,7 @@
   "concept": "Gradient descent optimization",
   "tradition_name": "WPA Federal Art Project posters",
   "tradition_period": "1935–1943",
-  "tradition_approach": "Used flat color bands, bold simplified worker silhouettes, strong diagonals, lithographic grain texture, and limited earthy palette typical of WPA posters to visually encode iterative descent toward a minimum."
+  "tradition_approach": "Used flat color bands, bold simplified worker silhouettes, strong diagonals, lithographic grain texture, and limited earthy palette typical of WPA posters to visually encode iterative descent toward a minimum.",
+  "paradox": "Progress occurs through repeated downward movement; each step descends locally yet moves toward a globally optimal low point.",
+  "visual_logic": "The descending spiral path represents iterative parameter updates, evenly spaced footprints represent discrete steps, and the glowing valley floor represents convergence toward the loss minimum."
 }
