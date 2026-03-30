@@ -1,0 +1,6 @@
+{
+  "prompt": "A weathered outdoor archery range at early morning, photographed in natural light. Three round straw targets are mounted side by side on wooden posts. The left target has a tight cluster of arrows all grouped together, but displaced far from the center — consistently wrong, precisely grouped. The right target has arrows scattered widely and randomly across its entire face — some near the center, some at the very edge, no two in the same place. The middle target has a tight cluster of arrows grouped closely around the bullseye — precise and accurate. No people visible. No text, no labels, no numbers on the targets. Shallow depth of field, cinematic, golden hour light, photorealistic, high detail, muted earthy tones, shot on 35mm film. Negative prompt: No diagrams, no text, no labels, no equations, no floating elements, no digital overlays, no glowing effects, no neural networks, no abstract backgrounds.",
+  "model": "DALL-E 3",
+  "concept": "bias-variance tradeoff",
+  "metaphor": "Three archery targets side by side: left shows a tight but off-center arrow cluster (high bias, low variance), right shows arrows scattered across the entire target (low bias, high variance), center shows a tight cluster around the bullseye (optimal tradeoff)."
+}

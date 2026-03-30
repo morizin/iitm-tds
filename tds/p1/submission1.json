@@ -2,6 +2,6 @@
   "prompt": "paste your exact DALL·E prompt here verbatim",
   "model": "DALL·E 3",
   "dataset_name": "Digital Well-being and Screen Time Dataset",
-  "dataset_url": "paste the URL or citation where you got the CSV",
+  "dataset_url": "https://www.kaggle.com/datasets/tarekmasryo/digital-health-and-mental-wellness",
   "insight": "People sleeping under 5 hours show 2.5× higher depression scores than those sleeping over 8 hours, with digital dependence being the strongest predictor of sleep loss."
 }
