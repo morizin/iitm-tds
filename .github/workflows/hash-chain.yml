@@ -1,0 +1,38 @@
+
+name: Secret Hash Chain
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: marker-9cd75783
+        run: echo "marker=9cd75783"
+
+      - name: Compute hash chain
+        env:
+          MY_SECRET: ${{ secrets.MY_SECRET }}
+        run: |
+          VERIFY_HASH=$(echo -n "${MY_SECRET}github-verified" | sha256sum | cut -c1-10)
+          echo "Verify hash: ${VERIFY_HASH}"
+          echo "${VERIFY_HASH}" > verify_hash.txt
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: verify-hash-9cd75783
+          path: verify_hash.txt
+
+5. Push to main → wait for successful run
+6. Find the verify hash: e9e974a70a
+7. Submit: https://github.com/OWNER/REPO/actions/runs/RUN_ID|e9e974a70a
+
+Your unique values:
+• Secret (MY_SECRET): d951e2e0896f
+• Marker: 9cd75783
+• Artifact name: verify-hash-9cd75783
+• Verify hash: e9e974a70a
